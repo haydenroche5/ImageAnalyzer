@@ -17,7 +17,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'slim'
 gem 'slim-rails'
 gem 'httparty'
-gem 'pry'
+gem 'pry', group: :development
+
+gem 'foreman'
+
+gem 'rails_12factor', group: :production
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -35,7 +39,7 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
