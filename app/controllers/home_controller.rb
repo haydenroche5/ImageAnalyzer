@@ -13,4 +13,3 @@ class HomeController < ApplicationController
       filename: 'seedling.jpg'
   end
 end
-  
