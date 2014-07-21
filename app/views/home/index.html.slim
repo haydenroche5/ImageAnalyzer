@@ -1,0 +1,13 @@
+h1 Hayden's Badass Image Analyzer
+
+form name="seedForm"
+  | Seed image:
+  input name="seedURL" type="text"
+button onclick="upload()"  Upload
+br
+  img#dummyImage src="" /
+  canvas#seedCanvas height="150" width="300"  Your browser does not support the HTML5 canvas tag.
+  ul
+    li#avgR Average R:
+    li#avgG Average G:
+    li#avgB Average B:
