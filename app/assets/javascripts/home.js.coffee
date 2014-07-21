@@ -28,7 +28,9 @@ $(document).ready ->
       totalGreen += data[i + 1]
       totalBlue += data[i + 2]
       i += 4
-    avgBlue = totalRed / (TOTAL_PIX)
+    avgRed = totalRed / (TOTAL_PIX)
+    avgGreen = totalGreen / (TOTAL_PIX)
+    avgBlue = totalBlue / (TOTAL_PIX)
     $("#avgR").html "Average R: " + avgRed
     $("#avgG").html "Average G: " + avgGreen
     $("#avgB").html "Average B: " + avgBlue

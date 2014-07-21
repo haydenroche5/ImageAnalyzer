@@ -10,6 +10,7 @@ class HomeController < ApplicationController
       type: result.content_type,
       disposition: 'inline',
       status: '200',
-      filename: 'something.jpg'
+      filename: 'seedling.jpg'
   end
 end
+  
