@@ -19,6 +19,7 @@ gem 'slim-rails'
 gem 'httparty'
 gem 'pry', group: :development
 
+gem 'pg'
 gem 'foreman'
 
 gem 'rails_12factor', group: :production
