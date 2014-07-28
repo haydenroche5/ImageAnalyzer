@@ -38,7 +38,7 @@ $(document).ready ->
 
   window.upload = ->
     seedName = seedForm.elements["seedURL"].value
-    seedName = '/get_image?&image_location=' + encodeURIComponent(seedName)
+    seedName = '/get_image?name=Hayden&image_location=' + encodeURIComponent(seedName)
     # $.ajax
     $("#dummyImage").attr "src", seedName
     $("#dummyImage").on('load', ->
@@ -46,7 +46,3 @@ $(document).ready ->
     )
 
   return
-
-  window.catchEm = ->
-      flickrReq = "http://api.flickr.com/services/rest/?&method=flickr.people.findByUsername&api_key
-      =dfb960f99c24e099522c69b9df12a48a&user_id=" + seedForm.elements["userCatcher"].value
